@@ -1,0 +1,52 @@
+@import url(userChrome_Fx56_bookmark_icons.css);
+
+/* Remove "Send Image" right-click contextual menu option */
+#context-sendimage { 
+    display: none !important 
+}
+
+/* Connected Tabs */
+.tab-background {
+    border-top-left-radius: 6px !important;
+    border-top-right-radius: 6px !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    margin-top: 10px !important;
+    margin-bottom: 0 !important;
+  }
+  .tab-content {
+    margin-top: 10px !important;
+    margin-bottom: 0 !important;
+    padding: 0 10px !important;
+  }
+  .tab-stack {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+/* Reduce left spacer on tab bar */
+.titlebar-spacer[type="pre-tabs"] {
+    /* display: none !important; */
+    width: 10px !important;
+}
+
+/* Fix white line around entire tab */
+#tabbrowser-tabs .tab-background[selected="true"] {
+    outline: none !important;
+}
+
+/* New Tab Button */
+#tabs-newtab-button {
+    margin-top: 10px !important;
+}
+
+/* List All Tabs Button */
+#alltabs-button {
+    margin-top: 10px !important;
+}
+
+/* Bookmark Toolbar */
+#PlacesToolbarItems {
+    padding-top: 0px !important;
+    padding-bottom: 3px !important;
+}
