@@ -61,8 +61,8 @@
 
 /* Bookmark Folder Icon */
 .bookmark-item[container]{
-    /* list-style-image: url("image-folder_yellow.png") !important; */
-    list-style-image: url("image-folder_black-70-opacity.svg") !important;
+    list-style-image: url("image-folder_yellow.svg") !important;
+    /* list-style-image: url("image-folder_black-70-opacity.svg") !important; */
 }
 
 /* New Tab Background - NOT WORKING */ 
