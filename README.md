@@ -1,6 +1,11 @@
 # Mozilla Firefox - userChrome.css
 After switching to Firefox (after years of using of Google Chrome) I found that some of the UI choices were a bit distracting. Luckily Firefox allows you to create a custom userChrome.css file to make as many tweaks as you'd like to personalize the interface. This is my personal userChrome.css file along with instructions on how to install them on another computer.
 
+## Enable Custom Profiles
+  1. Navigate to `about:config`
+  2. Search for `toolkit.legacyUserProfileCustomizations.stylesheets`
+  3. Set prefence to `true`
+
 ## Installation Instructions (Windows)
   1. Click the _Hamburger Menu_ to the right of the address bar
   2. Click `Help`
