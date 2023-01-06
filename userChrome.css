@@ -25,7 +25,7 @@
 /* Reduce left spacer on tab bar */
 .titlebar-spacer[type="pre-tabs"] {
     /* display: none !important; */
-    width: 10px !important;
+    width: 8px !important;
 }
 
 /* Fix white line around entire tab */
