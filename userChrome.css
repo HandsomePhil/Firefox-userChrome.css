@@ -65,14 +65,9 @@
     /* list-style-image: url("image-folder_black-70-opacity.svg") !important; */
 }
 
-/* New Tab Background - NOT WORKING */ 
-@-moz-document url("about:newtab"), url("about:home"){
-    body{
-      background-image: url("image.jpg");
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-position-x: center;
-      background-position-y: bottom;
-    }
+/* Move Find Bar to top of window */
+.browserContainer > findbar {
+    -moz-box-ordinal-group: 0 !important;
+    border-top: none !important;
+    border-bottom: 1px solid !important;
 }
