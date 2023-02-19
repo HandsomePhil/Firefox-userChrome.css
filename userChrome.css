@@ -33,6 +33,9 @@
     outline: none !important;
 }
 
+/* Fix #nav-bar box shadow from appearing on tabs */
+.tabbrowser-tab[visuallyselected="true"] { z-index: 2 !important; }
+
 /* New Tab Button */
 #tabs-newtab-button {
     margin-top: 10px !important;
