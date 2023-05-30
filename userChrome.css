@@ -69,7 +69,16 @@
 
 /* Move Find Bar to top of window */
 .browserContainer > findbar {
-    -moz-box-ordinal-group: 0 !important;
+    /* -moz-box-ordinal-group: 0 !important; */
+    order: -1;
     border-top: none !important;
-    border-bottom: 1px solid !important;
+    border-bottom: 1px solid !important;    
 }
+
+/* Find Bar: Background and text color - color works but not background :(
+findbar {
+    color: red !important;
+    -moz-appearance: none !important;
+    background-color: blueviolet !important;
+    border-bottom: 1px solid yellow !important;
+} */
