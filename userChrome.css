@@ -34,7 +34,13 @@
 }
 
 /* Fix #nav-bar box shadow from appearing on tabs */
-.tabbrowser-tab[visuallyselected="true"] { z-index: 2 !important; }
+/* .tabbrowser-tab[visuallyselected="true"] { 
+    z-index: 2 !important;
+} */
+.tabbrowser-tab[selected] { 
+    position: relative; z-index: 1 
+}
+
 
 /* New Tab Button */
 #tabs-newtab-button {
