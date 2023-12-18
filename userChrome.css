@@ -70,7 +70,7 @@
 
 /* Bookmark Folder Icon */
 .bookmark-item[container]{
-    list-style-image: url("image-folder_yellow.svg") !important;
+    list-style-image: url("image-folder_dark.svg") !important;
 }
 
 /* Move Find Bar to top of window */
