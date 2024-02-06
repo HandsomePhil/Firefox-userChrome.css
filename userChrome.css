@@ -81,6 +81,11 @@
     border-bottom: 1px solid !important;    
 }
 
+/* Fix tabs dimming while Firefox is inactive */
+:root[tabsintitlebar] #titlebar:-moz-window-inactive { 
+    opacity: 1 !important; 
+}
+
 /* Find Bar: Background and text color - color works but not background :(
 findbar {
     color: red !important;
