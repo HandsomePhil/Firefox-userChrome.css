@@ -22,3 +22,4 @@ Edit the CSS in the `userChrome.css` file to add or remove any custom code.
   - [FirefoxCSS Subreddit](https://www.reddit.com/r/FirefoxCSS/)
   - [Enabling the Browser Toolbox](https://firefox-source-docs.mozilla.org/devtools-user/browser_toolbox/index.html)
   - [How-To Geek article about userChrome.css](https://www.howtogeek.com/334716/how-to-customize-firefoxs-user-interface-with-userchrome.css/)
+  - [Complete userChrome.css specification in Firefox](https://superuser.com/questions/1215652/complete-userchrome-css-specification-in-firefox)
