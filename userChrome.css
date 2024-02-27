@@ -37,6 +37,7 @@
 /* .tabbrowser-tab[visuallyselected="true"] { 
     z-index: 2 !important;
 } */
+
 .tabbrowser-tab[selected] { 
     position: relative; z-index: 1 
 }
@@ -60,8 +61,6 @@
 }
 
 .bookmark-item {
-    /* margin-left: 4px !important;
-    margin-right: 4px !important; */
     padding-left: 6px !important;
     padding-right: 6px !important;
     padding-top: 6px !important;
@@ -75,7 +74,6 @@
 
 /* Move Find Bar to top of window */
 .browserContainer > findbar {
-    /* -moz-box-ordinal-group: 0 !important; */
     order: -1;
     border-top: none !important;
     border-bottom: 1px solid !important;    
