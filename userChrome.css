@@ -81,7 +81,7 @@
 
 /* Remove nav-bar top border */
 #nav-bar { 
-    border-top: 0px !important
+    border-top: 0px !important;
 }
 
 /* For testing later -- this removes the boder below the navbar */
