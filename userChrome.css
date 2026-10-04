@@ -97,3 +97,16 @@ findbar {
     background-color: blueviolet !important;
     border-bottom: 1px solid yellow !important;
 } */
+
+/* 157.0 Updates - from Reddit: https://old.reddit.com/r/FirefoxCSS/comments/1ww7x7u/polishing_firefox_1570/ */
+/* 1. Square panel and dropdown menu borders */
+panel, menupopup {
+    --panel-border-radius: 4px !important;
+    border-radius: 4px !important;
+}
+
+/* 3. Square hover highlights in bookmark panels, dropdowns, and context menus */
+menu, menuitem, .menuitem-iconic, .bookmark-item, panelview .toolbarbutton-1 {
+    border-radius: 4px !important;
+    --arrowpanel-menuitem-border-radius: 4px !important;
+}
